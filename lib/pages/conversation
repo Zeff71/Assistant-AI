@@ -1,0 +1,26 @@
+class Conversation {
+  final String conversationId;
+  final String title;
+  final DateTime createdAt;
+
+  Conversation({
+    required this.conversationId,
+    required this.title,
+    required this.createdAt,
+  });
+
+  factory Conversation.fromMap(String conversationId, Map<String, dynamic> data) {
+    return Conversation(
+      conversationId: conversationId,
+      title: data['title'] ?? 'Nouvelle conversation',
+      createdAt: (data['createdAt'] as Timestamp).toDate(),
+    );
+  }
+
+  Map<String, dynamic> toMap() {
+    return {
+      'title': title,
+      'createdAt': createdAt,
+    };
+  }
+}

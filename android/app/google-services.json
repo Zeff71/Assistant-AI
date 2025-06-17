@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1010988938939",
+    "project_id": "assistant-ia-c5f99",
+    "storage_bucket": "assistant-ia-c5f99.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010988938939:android:54b86405e15387087b5b9e",
+        "android_client_info": {
+          "package_name": "com.sae.ai_assistance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_7gArL8Aei8jxK7G5Th2JT6Zh5kVBjBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
