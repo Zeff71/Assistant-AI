@@ -1,3 +1,4 @@
+HEAD
 # ai_assistance
 
 A new Flutter project.
